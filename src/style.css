@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gifs-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap:4px;
+    width: 65%;
+    position: relative;
+}
+
+.gifs-container h1{
+    position: absolute;
+}
+
+.gif-img{
+    width: 300px;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.App{
+    padding: 20px;
+    color: rgb(231, 232, 233);
+    background-color: rgb(15, 17, 19); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: end;
+   display: flex;
+   gap:30px;
+}
+
+.navigation button{
+    background-color: aliceblue;
+    padding:10px 40px;
+    border-radius: 7px;
+}
